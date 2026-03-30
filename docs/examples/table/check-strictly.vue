@@ -32,7 +32,7 @@ const treeProps = reactive({
   checkStrictly: false,
 })
 
-const selectable = (row: User) => ![1, 31].includes(row.id)
+const selectable = (row: User) => ![31].includes(row.id)
 
 const tableData: User[] = [
   {
